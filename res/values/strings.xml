@@ -2,4 +2,10 @@
 <resources>
     <string name="hello">Hello World</string>
     <string name="app_name">Home Library Catalog</string>
+    <string name="ISBN">ISBN</string>
+    <string name="Title">title</string>
+    <string name="Author">author</string>
+    <string name="publisher">publisher</string>
+    <string name="release_date">release date</string>
+    <string name="number_of_pages">number of pages</string>
 </resources>
