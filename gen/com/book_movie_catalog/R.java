@@ -8,30 +8,34 @@
 package com.book_movie_catalog;
 
 public final class R {
+    public static final class array {
+        public static final int books=0x7f050000;
+    }
     public static final class attr {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int button_clear=0x7f050008;
-        public static final int button_manualEntry=0x7f05000c;
-        public static final int button_scan=0x7f05000a;
-        public static final int button_submitFields=0x7f050007;
-        public static final int button_submitISBN=0x7f05000d;
-        public static final int button_viewCatalog=0x7f05000b;
-        public static final int editTextAuthor=0x7f050002;
-        public static final int editTextISBN=0x7f050004;
-        public static final int editTextNumberOfPages=0x7f050006;
-        public static final int editTextPublisher=0x7f050003;
-        public static final int editTextReleaseDate=0x7f050005;
-        public static final int editTextTitle=0x7f050001;
-        public static final int gridLayout1=0x7f050000;
-        public static final int relativeLayout1=0x7f050009;
+        public static final int button_clear=0x7f060008;
+        public static final int button_manualEntry=0x7f06000c;
+        public static final int button_scan=0x7f06000a;
+        public static final int button_submitFields=0x7f060007;
+        public static final int button_submitISBN=0x7f06000d;
+        public static final int button_viewCatalog=0x7f06000b;
+        public static final int editTextAuthor=0x7f060002;
+        public static final int editTextISBN=0x7f060004;
+        public static final int editTextNumberOfPages=0x7f060006;
+        public static final int editTextPublisher=0x7f060003;
+        public static final int editTextReleaseDate=0x7f060005;
+        public static final int editTextTitle=0x7f060001;
+        public static final int gridLayout1=0x7f060000;
+        public static final int relativeLayout1=0x7f060009;
     }
     public static final class layout {
         public static final int edit_view=0x7f030000;
         public static final int main=0x7f030001;
+        public static final int view_catalog=0x7f030002;
     }
     public static final class string {
         public static final int Author=0x7f040004;

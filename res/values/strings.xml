@@ -8,4 +8,7 @@
     <string name="publisher">publisher</string>
     <string name="release_date">release date</string>
     <string name="number_of_pages">number of pages</string>
+    <string-array name="books">
+        <item/>
+    </string-array>
 </resources>

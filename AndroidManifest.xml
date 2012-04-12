@@ -10,5 +10,6 @@
             </intent-filter>
         </activity>
         <service android:name=".CreateDatabase"/>
+        <activity android:name=".CatalogViewList"/>
     </application>
 </manifest>

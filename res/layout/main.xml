@@ -25,7 +25,8 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="137dp"
-            android:text="View Catalog" />
+            android:text="View Catalog"
+            android:onClick="onViewCatalogButtonClick" />
 
         <Button
             android:id="@+id/button_manualEntry"

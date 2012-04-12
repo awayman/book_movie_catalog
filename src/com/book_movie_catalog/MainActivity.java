@@ -33,7 +33,6 @@ public class MainActivity extends Activity {
     	// Bind to CreateDatabase
     	Intent intent = new Intent(this, CreateDatabase.class);
     	bindService(intent, dbConnection, Context.BIND_AUTO_CREATE);
-    	
     }
     
     public void onStop() {
@@ -48,7 +47,7 @@ public class MainActivity extends Activity {
     
     public void onManualEntryButtonClick(View v) {
 		if (dbBound) {
-			setContentView(R.layout.edit_view);
+			setContentView(R.layout.edit_view);	//take user to the edit screen
 		}
 	}
     
@@ -72,8 +71,16 @@ public class MainActivity extends Activity {
 			textEntry = (EditText) findViewById(R.id.editTextNumberOfPages);
 			String pages = textEntry.getText().toString();
 			
-			//dbService.insertEntry(Author, Title, isbn);
-			//Log.i("createDatabase", "Success!");
+			dbService.insertEntry(title, author, publisher, isbn, release_date, pages);
+			Log.i("onSubmitManualEntry", "Success!");
+			
+			setContentView(R.layout.main);	//take user back to the main screen on submit
+		}
+	}
+    
+    public void onViewCatalogButtonClick(View v) {
+		if (dbBound) {
+			dbService.viewCatalog();
 		}
 	}
     
